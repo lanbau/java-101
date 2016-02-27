@@ -14,5 +14,9 @@ public class Introductions {
         // Using String variable
         console.printf("%s is learning how to write Java\n", firstName);
         
+        // Get Input From CLI
+        String input = console.readLine("what is your age?\n");
+        console.printf("my age is " + input);
+        
   }
 }
