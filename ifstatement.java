@@ -11,9 +11,9 @@ public class TreeStory {
         int weight = Integer.parseInt(weightAsString);
         System.out.print(weight);
       
-        // String Equality
+        // String Equality && OR Condition
         String vulgarwords = console.readLine("If Someone Stepped on Your Feet, What should you say?");
-        if (vulgarwords.equals("FUCK YOU")) {
+        if (vulgarwords.equals("FUCK YOU") || vulgarwords.equalsIgnoreCase("OUCH")) {
           console.printf("FUCK YOU TOO!");
         } else {
           console.printf("You little bitch!");
